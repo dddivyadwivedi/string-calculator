@@ -6,6 +6,6 @@ describe('StringCalculator', () => {
         expect(StringCalculator('')).toBe(0);
     });
     it('It should return the number itself if paramater passed is single number', () => {
-
+        expect(StringCalculator('1')).toBe(1);
     })
 });
